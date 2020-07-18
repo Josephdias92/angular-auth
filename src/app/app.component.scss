@@ -1,0 +1,22 @@
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  li {
+    border: 1px solid;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    a {
+      padding: 10px;
+      text-align: center;
+      width: 100%;
+      text-decoration: none;
+      color: brown;
+      font-size: 16px;
+      font-weight: bold;
+    }
+  }
+}
